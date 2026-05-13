@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
-const int MAXN=10001;
+const long long MAXN=10001;
 int main(){
-	int a[MAXN];
+	long long a[MAXN];
 	int i,n,maxa,k;
 	cin>>n;
 	for(i=1;i<=n;i++) cin>>a[i];
